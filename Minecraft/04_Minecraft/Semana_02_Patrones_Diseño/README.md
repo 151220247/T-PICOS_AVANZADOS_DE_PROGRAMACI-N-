@@ -43,7 +43,7 @@ un programa en la vida real.
 
 ###  Zona 1: Entrada del sistema
 
-![Zona 1](imagenes/zona_1.png)
+![Zona 1](imagenes/Zona_1.png)
 
 Esta zona representa la entrada de datos del sistema. Aquí el usuario interactúa
 con el sistema mediante un botón. Esta acción equivale a ingresar
@@ -54,7 +54,7 @@ aplicación.
 
 ###  Zona 2: Procesamiento
 
-![Zona 2](imagenes/zona_2.png)
+![Zona 2](imagenes/Zona_2.png)
 
 En esta zona la señal de redstone comienza a procesarse. Se utilizan repetidores
 para controlar el tiempo y la fuerza de la señal, representando cómo un sistema
@@ -64,7 +64,7 @@ procesa los datos antes de tomar una decisión.
 
 ### 🔵 Zona 3: Decisión
 
-![Zona 3](imagenes/zona_3.png)
+![Zona 3](imagenes/Zona_3.png)
 
 Aquí el sistema decide qué camino seguir. La redstone se divide en dos salidas,
 simulando una estructura condicional como un if/else en programación. Dependiendo
@@ -74,7 +74,7 @@ de la señal, el sistema continúa o se detiene.
 
 ### 🟣 Zona 4: Control de acceso
 
-![Zona 4](imagenes/zona_4.png)
+![Zona 4](imagenes/Zona_4.png)
 
 Esta zona controla si el usuario puede avanzar o no. La puerta representa una
 validación, similar a cuando un sistema permite o niega el acceso dependiendo
@@ -84,7 +84,7 @@ de una condición previa.
 
 ### 🔴 Zona 5: Respuesta del sistema
 
-![Zona 5](imagenes/zona_5.png)
+![Zona 5](imagenes/Zona_5.png)
 
 En esta zona el sistema genera una respuesta visible. La lámpara encendida
 representa que el proceso fue exitoso y el dispensador entrega un objeto como
