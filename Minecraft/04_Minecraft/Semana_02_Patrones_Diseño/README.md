@@ -62,7 +62,7 @@ procesa los datos antes de tomar una decisión.
 
 ---
 
-### 🔵 Zona 3: Decisión
+### Zona 3: Decisión
 
 ![Zona 3](image-3.png)
 
@@ -72,7 +72,7 @@ de la señal, el sistema continúa o se detiene.
 
 ---
 
-### 🟣 Zona 4: Control de acceso
+### Zona 4: Control de acceso
 
 ![Zona 4](image-4.png)
 
@@ -82,7 +82,7 @@ de una condición previa.
 
 ---
 
-### 🔴 Zona 5: Respuesta del sistema
+### Zona 5: Respuesta del sistema
 
 ![Zona 5](image-5.png)
 
