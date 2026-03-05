@@ -8,7 +8,7 @@ $conexion = Conexion::conectar();
 $sql = "SELECT * FROM empleados";
 $smt = $conexion->prepare($sql);
 $smt->execute();
-$empleados = $smt->fetchA11(PDO::FETCH_ASSOC);
+$empleados = $smt->fetchAll(PDO::FETCH_ASSOC);
 $total = count($empleados);
 
 $promedioEdad = 0;
@@ -25,7 +25,7 @@ foreach ($empleados as $emp){
     $fechaIngreso = new DateTime($emp['fecha_ingreso']);
     $hoy = new DateTime();
     $dias = $hoy->diff($fechaIngreso)->days;
-    if ($disas > $maxDias){
+    if ($dias > $maxDias){
         $maxDias = $dias;
         $mayorAntiguedad = $emp['nombre'];
     }
@@ -43,8 +43,12 @@ foreach ($empleados as $emp){
     <head>
         <meta charset="UTF-8">
         <title>Lista de Empleados</title>
+
+        <link rel="stylesheet" href="css/estilos.css">
+        
     </head>
     <body>
+
 
     <h2>Lista de Empleados</h2>
 
@@ -86,11 +90,5 @@ foreach ($empleados as $emp){
 
 </body>
 </html>              
-
-
-
-
-
-
 
 }

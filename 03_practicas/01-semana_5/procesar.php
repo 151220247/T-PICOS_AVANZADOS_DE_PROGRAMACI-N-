@@ -23,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Edad inválida");
     }
 
+
     try{
         $conexion = Conexion::conectar();
 
@@ -47,4 +48,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
 }
-?>?
+?>
