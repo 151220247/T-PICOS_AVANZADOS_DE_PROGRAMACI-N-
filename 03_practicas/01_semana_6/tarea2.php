@@ -1,10 +1,12 @@
 <?php
 
 $inicio = microtime(true);
+
 sleep(3);
 
 $fin = microtime(true);
-$tiemp = $fin - $inicio;
+$duracion = $fin - $inicio;
 
-echo"Tarea 2 completada en" .round($tiempo,2). "segundos";
+echo "Tarea 2 finalizada en " . round($duracion, 2) . " segundos";
+
 ?>
