@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Control de Tareas</title>
-</head>
+<html>
 <body>
 
-<h2>CONTROL DE TAREAS DEL SISTEMA</h2>
+<h2>CONTROL DE TAREAS</h2>
 
 <h3>Tarea 1</h3>
 <button onclick="fetch('iniciar_tarea1.php')">Iniciar</button>
@@ -17,19 +13,7 @@
 <button onclick="fetch('detener_tarea2.php')">Detener</button>
 
 <br><br>
-<button onclick="verLog()">Ver Log</button>
-
-<pre id="log"></pre>
-
-<script>
-function verLog(){
-    fetch("log.txt")
-    .then(res => res.text())
-    .then(data => {
-        document.getElementById("log").textContent = data;
-    });
-}
-</script>
+<a href="estado.php">Ver estado</a>
 
 </body>
 </html>
