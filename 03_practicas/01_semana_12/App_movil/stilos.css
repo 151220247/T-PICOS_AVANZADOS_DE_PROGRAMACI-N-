@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Encabezado */
+header{
+    background: #2C3E50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Contenido principal */
+main{
+    padding: 15px;
+}
+
+/* Botones */
+.btn{
+    display: block;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Tarjetas */
+.card{
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Responsive para móvil */
+@media(max-width:768px){
+
+    body{
+        font-size: 16px;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .card{
+        padding: 10px;
+    }
+
+}
