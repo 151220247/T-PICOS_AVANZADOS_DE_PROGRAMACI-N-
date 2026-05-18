@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#1e88e5;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.contenedor{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    padding-bottom:15px;
+}
+
+.card img{
+    width:100%;
+}
+
+.card h2{
+    padding:15px 15px 5px;
+}
+
+.card p{
+    padding:0 15px 15px;
+}
+
+.btn{
+    display:block;
+    width:90%;
+    margin:auto;
+    text-align:center;
+    background:#1e88e5;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.detalle-container{
+    padding:20px;
+}
+
+.detalle-img{
+    width:100%;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:20px;
+}
+
+input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+}
+
+button{
+    background:#43a047;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.regresar{
+    margin-top:20px;
+    background:#ef5350;
+}
+@media (min-width:768px){
+
+    .contenedor{
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .card{
+        width:300px;
+    }
+
+    .detalle-container{
+        width:500px;
+        margin:auto;
+    }
+}
